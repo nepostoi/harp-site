@@ -165,7 +165,8 @@ a {
 }
 
 a:hover {
-  color: #0FA0CE; }
+  color: #0FA0CE;
+}
   
 a:link {
     color: #444;
@@ -455,6 +456,10 @@ there.
 -----------------------------------------------*/
 #blogPage {
   text-align: center;
+}
+
+#blogPostLink :hover {
+  text-decoration: underline;
 }
 
 
